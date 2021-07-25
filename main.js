@@ -30,7 +30,7 @@ scene.add( cube );
 
 
 const loader = new FBXLoader()
-loader.load('/Switch.fbx', function (FBX)  {
+loader.load('./Switch.fbx', function (FBX)  {
     FBX.scale.set(0.01, 0.01, 0.01)
     FBX.position.set(0, -3, 0)
     FBX.rotation.set(0, -1.5, 0)
